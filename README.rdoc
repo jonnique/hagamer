@@ -1,0 +1,14 @@
+== README
+
+Rails Cheat List
+
+#Rollback Migration to top
+
+rake db:rollback STEP=1
+
+#Pushing
+
+git add -A
+git commit -m 'insert message'
+git push
+
